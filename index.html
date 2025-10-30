@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="LOULION COMPANY — serviços de programação web (LOULION TECH) e encomenda de bolos de pote (LOULION SWEETS)">
+    <meta name="author" content="Lionel Cristóvão André">
+    <title>LIONANDRE COMPANY</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    
+    <header class="site-header">
+        <div class="container header-inner">
+            <a class="logo" href="#home">LIONANDRE <span class="muted">COMPANY</span></a>
+            <button class="nav-toggle" aria-expanded="false" aria-controls="primary-navigation" aria-label="Abrir menu">
+                ☰
+            </button>
+            <nav id="primary-navigation" class="nav">
+                <ul>
+                    <li><a href="#sobre">Sobre</a></li>
+                    <li><a href="#servicos">Serviços</a></li>
+                    <li><a href="#sweets">LIONANDRE SWEETS</a></li>
+                    <li><a href="#contato">Contacto</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero" id="home">
+            <div class="container hero-inner">
+                <h1>LIONANDRE COMPANY</h1>
+                <p class="lead">Soluções web profissionais e deliciosos bolos de pote — duas marcas, a mesma paixão por qualidade e profissionalismo.</p>
+                <div class="hero-ctas">
+                    <a class="btn btn-primary" href="#servicos">Ver serviços</a>
+                    <a class="btn" href="#contato">Solicitar Serviços</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="sobre" class="container section">
+            <h2>Sobre Nós</h2>
+            <p>
+                A LIONANDRE COMPANY é uma empresa inovadora que combina tecnologia e sabor 
+                para oferecer soluções web personalizadas e deliciosos bolos de pote 
+                para todos os gostos. <br>
+                A nossa principal missão é oferecer serviços de alta qualidade que 
+                atendam às necessidades de nossos clientes, seja em termos de 
+                desenvolvimento web ou de confeitaria.
+            </p>
+
+            <p>LIONANDRE COMPANY reúne duas linhas: <br>
+                <strong>LIONANDRE TECH</strong> — serviços de programação web e consultoria técnica; <br>
+                <strong>LIONANDRE SWEETS</strong> — venda e encomenda de bolos de pote artesanais. Criamos experiências digitais e sabores memoráveis.</p>
+
+            <h3>Nossa História</h3>
+            <p>
+                Nossa jornada começou com a paixão por tecnologias e confeitaria. Desde 
+                então, trabalhamos arduamente para criar soluções web que atendam às 
+                necessidades de nossos clientes e bolos de pote que sejam verdadeiras 
+                obras-primas.
+            </p>
+
+            <h3>Nossos Valores</h3>
+            <p>
+                <strong>Inovação: </strong>Estamos sempre procurando novas maneira de 
+                melhorar nossos serviços e produtos. <br>
+                <strong>Qualidade: </strong>Nossa prioridade é fornecer serviços e 
+                produtos de alta qualidade que atendam às expectativas de nossos clientes <br>
+                <strong>Satisfação do Cliente: </strong>Nosso objectivo é garantir que nossos 
+                clientes estejam satisfeitos com nossos produtos e serviços
+            </p>
+
+            <h3>Por que a LIONANDRE COMPANY?</h3>
+            <p>
+                <strong>◾Serviços Web Personalizado: </strong>Nossa equipe de especialistas 
+                em desenvolvimento web pode criar soluções personalizadas para atender 
+                às necessidades específicas de sua empresa. <br>
+                <strong>◾Bolos Saborosos: </strong>Nossos serviços de confeitaria com 
+                ingredientes frescos qualitativos e ão verdadeiras obras-primas. <br>
+                <strong>◾Atendimento ao Cliente: </strong>Nossa equipe está sempre 
+                disponível para atender às suas necessidades e acabar com as suas dúvidas.
+            </p>
+        </section>
+
+        <section id="servicos" class="container section">
+            <h2>Nossos serviços</h2>
+            <div class="cards">
+                <article class="card">
+                    <div class="card-emoji">💻</div>
+                    <h3>LIONANDRE TECH</h3>
+                    <p>Desenvolvimento web (sites, landing pages, e-commerces...), manutenção e consultoria em tecnologias modernas.</p>
+                    <a class="btn btn-sm" href="#tech">Solicite nossos serviços</a>
+                </article>
+
+                <article class="card">
+                    <div class="card-emoji">🧁</div>
+                    <h3>LIONANDRE SWEETS</h3>
+                    <p>Bolos de pote feitos com ingredientes selecionados. Encomende para eventos, entregas locais ou retiro no local.</p>
+                    <a class="btn btn-sm" href="#sweets">Encomende agora</a>
+                </article>
+
+                <article class="card">
+                    <div class="card-emoji">📖</div>
+                    <h3>LIONANDRE TEACHING</h3>
+                    <p>Se procura aprender a programar, solicite os nossos serviços. Aulas ao domicílio que te vão tornar profissional</p>
+                    <a class="btn btn-sm" href="#sweets">Encomende agora</a>
+                </article>
+            </div>
+        </section>
+
+        <section id="sweets" class="container section sweets">
+            <h2>LIONANDRE SWEETS — Encomendas</h2>
+            <p>Escolha entre vários sabores: chocolate, brigadeiro, prestígio, beijinho e sabores sazonais. Fazemos embalagens para presente e eventos.</p>
+            <img src="dotes/bolo1.jpg" alt="Bolo 1" class="img">
+            <img src="dotes/bolo2.jpg" alt="Bolo 2" class="img">
+            <img src="dotes/bolo3.jpg" alt="Bolo 3" class="img">
+        </section>
+
+        <section id="tech" class="container section sweets">
+            <h2>LIONANDRE TECH — Serviços Web</h2>
+            <p>
+                Trazemos até si soluções web personalizadas, que garantem satisfação aos nossos clientes.
+                Para a LIONANDRE TECH a sua satisfação é a nossa maior vitória.
+            </p>
+            <img src="dotes/site.jpg" alt="tech 1" class="img">
+            <img src="dotes/fullstack.jpg" alt="tech 2" class="img">
+            <img src="dotes/webservice.jpg" alt="tech 3" class="img">
+        </section>
+
+        <section id="tech" class="container section sweets">
+            <h2>LIONANDRE TEACHING — Aprenda A Programar</h2>
+            <p>
+                Trazemos até si o conhecimento que precisa para se tornar um profissional na área tecnológica.
+                A LIONANDRE TEACHING trabalha arduamente para dar estabilidade profissional aos seus educandos.
+            </p>
+            <img src="dotes/teaching (1).jpg" alt="tech 3" class="img">
+            <video class="img" autoplay muted loop style="background-color: rgb(41, 43, 43);">
+                <source src="videos/learn.mp4" type="video/mp4" style="width: 90%;">
+            </video>
+            <img src="dotes/codigo.jpg" alt="tech 3" class="img">
+        </section>
+
+        <section id="contato" class="container section">
+            <h2>Contacto</h2>
+            <p>Preencha o formulário abaixo e responderemos em até 48 horas.</p>
+            <form id="contact-form" class="contact-form" novalidate>
+                <label for="name">Nome</label>
+                <input id="name" name="name" type="text" required>
+
+                <label for="email">Email</label>
+                <input id="email" name="email" type="email" required>
+
+                <label for="service">Serviço</label>
+                <select id="service" name="service">
+                    <option value="Serviços Web" style="width: 100%;">LIONANDRE TECH — Desenvolvimento Web</option>
+                    <option value="Serviços Sweets">LIONANDRE SWEETS — Encomenda de bolos</option>
+                    <option value="Serviços Teaching">LIONANDRE TEACHING - Aprender Programação </option>
+                </select>
+
+                <label for="message">Mensagem</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+
+                <button class="btn btn-primary" type="submit">Enviar</button>
+                <div id="form-status" role="status" aria-live="polite"></div>
+            </form>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container footer-inner">
+            <p>© <span id="year"></span> LIONANDRE COMPANY — LIONANDRE TECH & LIONANDRE SWEETS & LIONANDRE TEACHING</p>
+            <p class="muted">FEITO POR LOULION TECH</p>
+        </div>
+    </footer>
+
+</body>
+</html>
