@@ -178,7 +178,8 @@ html,body{
 .contact-form input,.contact-form textarea,.contact-form select{
     padding:0.6rem;
     border-radius:8px;
-    border:1px solid #e6edf3
+    border:1px solid #e6edf3;
+    width: 100%
 }
 
 #form-status{
